@@ -1,0 +1,57 @@
+/* SCREEN SIZE FROM 1024 TO 1200 */
+@media only screen and (max-width: 1200px) {
+    .main-title-container {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/* SCREEN SIZE FROM 768 TO 1023 */
+@media only screen and (max-width: 1023px) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* SCREEN SIZE FROM 481 TO 767 */
+@media only screen and (max-width: 767px) {
+    .top-bar-nav span {
+        display: block;
+    }
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border: 0;
+    }
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    h1 {
+        font-size:3rem;
+    }
+    
+    .products-container {
+        grid-template-columns: 50% 50%;
+    }
+}
+
+/* SCREEN SIZE <=480 */
+@media only screen and (max-width: 480px) {
+    .products-container {
+        grid-template-columns: 100%;
+    }
+}

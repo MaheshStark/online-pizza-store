@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #414141;
+    padding: 10px 20px;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.admin-top-nav-right {
+    float: right;
+}
+
+.admin-side-nav-container {
+    margin: 0;
+}
+
+.admin-side-nav {
+    background: #414141;
+    height: 100vh;
+}
+
+.admin-side-nav li {
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+    transition: background 0.2s;
+}
+
+.admin-side-nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Lato', 'arial', sans-serif;
+    
+}
+
+.admin-side-nav li:hover {
+    background: #272727;
+}
+
+.section-header {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 50px;
+    border: 1px solid #414141;
+    border-radius: 5px;
+    background: #efefef;
+}
+
+input[type="text"] {
+    width: 100%;
+    font-family: 'Lato', 'Arial', sans-serif;
+    padding: 10px 5px;
+    border: 1px solid #797979;
+    border-radius: 2px;
+    -webkit-transition: border .2s;
+    transition: border .2s;
+}
+
+table {
+    width: 95%;
+    margin-top:10px;
+}
+
+table, td, th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: left;
+}
+
+
+form {
+    width:100%;
+    max-width: 800px;
+}
+
+form label {
+    display: block;
+}
+
+input[type='text'],
+textarea,
+select,
+input[type='number'],
+input[type='password'] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.form-field {
+    margin: 10px 0;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    background: #af131c;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 300;
+    text-decoration: none;
+    border: 1px solid #af131c;
+    border-radius: 25px;
+    -webkit-transition: background .5s, border 0.5s;
+    transition: background .5s, border 0.5s;
+    margin:10px 0;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+    background: #a0111a;
+}
+
+.thumbnail {
+    width: 50px;
+    height: 50px;
+}
+
+.error-message {
+    color: red;
+}
+
+
+
+
